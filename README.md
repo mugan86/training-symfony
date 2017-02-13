@@ -3,6 +3,10 @@ training
 
 A Symfony project created on February 12, 2017, 9:04 am.
 
+### Interest for me
+
+1.- Start server: php app/console server:run
+
 ### Errors and solutions
 
 1.- Warning: date_default_timezone_get() installing Symfony
