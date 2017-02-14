@@ -6,3 +6,7 @@ acme_hello_homepage:
 hello:
     path:     /hello/{name}
     defaults: { _controller: AcmeHelloBundle:Hello:index }
+
+nombre_apellidos:
+    path:     /hello/{name}/{apellidos}
+    defaults: { _controller: AcmeHelloBundle:Hello:nameapellidos }
