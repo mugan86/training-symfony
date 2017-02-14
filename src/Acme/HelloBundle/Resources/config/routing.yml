@@ -1,0 +1,8 @@
+# src/Acme/HelloBundle/Resources/config/routing.yml
+acme_hello_homepage:
+    path:     /
+    defaults: { _controller: AcmeHelloBundle:Default:index }
+
+hello:
+    path:     /hello/{name}
+    defaults: { _controller: AcmeHelloBundle:Hello:index }
