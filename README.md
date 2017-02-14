@@ -7,6 +7,10 @@ A Symfony project created on February 12, 2017, 9:04 am.
 
 1.- Start server: php app/console server:run
 
+2.- Download repository and install in other machine
+
+* Clone repository and execute 'sudo composer install' (First asign read/write permissions)
+
 ### Errors and solutions
 
 1.- Warning: date_default_timezone_get() installing Symfony
