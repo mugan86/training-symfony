@@ -14,6 +14,7 @@ class HelloController extends Controller
 
     public function nameapellidosAction($name, $apellidos)
     {
+        //Ucfirst use to return capitalize name and lastname
         return new Response('<html><body>Hello ' . ucfirst($name) . ' ' . ucfirst($apellidos) . '!</body></html>');
     }
 }
