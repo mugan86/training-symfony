@@ -7,14 +7,13 @@ use Symfony\Component\HttpFoundation\Response;
 
 class HelloController extends Controller
 {
-
     public function indexAction($name)
     {
         return $this->render('AcmeHelloBundle:Hello:index.html.twig', array('name' => $name));
     }
 
-    public function testAction()
+    public function nameapellidosAction($name, $apellidos)
     {
-        return new Response('<html><body>Hello Test Example!</body></html>');
+        return new Response('<html><body>Hello ' . ucfirst($name) . ' ' . ucfirst($apellidos) . '!</body></html>');
     }
 }
